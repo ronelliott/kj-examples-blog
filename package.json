@@ -1,0 +1,27 @@
+{
+  "name": "blog",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "kj --config=./config/dev.js"
+  },
+  "dependencies": {
+    "kj": "^0.4.3",
+    "kj-cli": "0.0.3",
+    "kj-handler-directory": "0.0.3",
+    "kj-handler-view": "0.0.3",
+    "kj-logger-winston": "0.0.3",
+    "kj-renderer-nunjucks": "^0.1.0",
+    "marked": "^0.3.5",
+    "nunjucks": "^2.4.0",
+    "reflekt": "^0.3.9"
+  },
+  "devDependencies": {
+    "bower": "^1.7.7",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-cssmin": "^0.1.7",
+    "gulp-replace": "^0.5.4",
+    "gulp-uglify": "^1.5.3"
+  }
+}

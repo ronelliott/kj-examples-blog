@@ -1,0 +1,7 @@
+{
+  "name": "blog",
+  "private": true,
+  "dependencies": {
+    "bootswatch-dist": "flatly"
+  }
+}
